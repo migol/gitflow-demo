@@ -11,8 +11,10 @@ namespace HelloWorld
     {
         public static void Main()
         {
+            int add2and2 = 2 + 2;
+
             Console.WriteLine("HelloWorld!");
-            Console.WriteLine((2 + 2).ToString());
+            Console.WriteLine(add2and2.ToString());
             Console.ReadKey();
         }
     }
