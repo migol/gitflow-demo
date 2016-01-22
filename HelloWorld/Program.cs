@@ -12,6 +12,7 @@ namespace HelloWorld
         public static void Main()
         {
             Console.WriteLine("HelloWorld!");
+            Console.WriteLine((2 + 2).ToString());
             Console.ReadKey();
         }
     }
